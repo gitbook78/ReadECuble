@@ -1,6 +1,8 @@
 # ReadECuble
 Free study materials for CSVTU: notes, PYQs, tests, videos &amp; more!
 
+![ReadECuble_banner](Images/favicon_io/ReadECuble_header.png)
+
 ---
 
 # Terms and Conditions
