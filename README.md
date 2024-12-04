@@ -24,8 +24,8 @@ Users are expected to use the content provided within the app solely for persona
 4. User Accounts 
 To access certain features of our app, you may be required to create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete. 
 
-4.1 Account Security
-You are responsible for maintaining the confidentiality of your account information, including your password. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. 
+   4.1 Account Security
+   You are responsible for maintaining the confidentiality of your account information, including your password. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. 
 
 5. Limitation of Liability 
 Readecuble is not responsible for any errors, omissions, or inaccuracies in the materials provided. We do not guarantee that the content is accurate, reliable, or complete. In no event shall Readecuble be liable for any direct, indirect, incidental, or consequential damages arising from the use of our app. 
@@ -40,23 +40,25 @@ Readecuble is a resource-providing app designed specifically for students of CSV
 
 At Readecuble, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and protect your personal information when you use our app. By using Readecuble, you agree to the collection and use of your information in accordance with this policy. 
 
-Collecting and using Personal Data
+##### Collecting and using Personal Data
 Readecuble does not share any user data.
 
 Readecuble collects users' names and email addresses as a means of user authentication, ensuring secure access to the app's resources and personalized features 
 
-Permissions We Request 
+##### Permissions We Request 
 Notifications Permission: Readecuble requests permission to send notifications, allowing us to keep users informed about important updates, features, and relevant alerts related to the app. 
 
-Storage Access: Readecuble requires access to device storage to save files downloaded through the app, ensuring users can view and manage these files directly on their device. 
+##### Storage Access: 
+Readecuble requires access to device storage to save files downloaded through the app, ensuring users can view and manage these files directly on their device. 
 
-Network Access: We require access to the internet to download necessary files, updates, and content related to the app. This also allows us to sync your data and provide real-time updates. 
+##### Network Access: 
+We require access to the internet to download necessary files, updates, and content related to the app. This also allows us to sync your data and provide real-time updates. 
 
 
-Data Security
+##### Data Security\n
 We take appropriate security measures to protect your information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee its absolute security. 
 
-Children's Privacy
+##### Children's Privacy:
 Our application does not address any one under the age of 13. We do not collect any personnel information from children through our application.
 
 ---
