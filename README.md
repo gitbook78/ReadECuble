@@ -68,11 +68,11 @@ Our application does not address any one under the age of 13. We do not collect 
 # Account Deletion
 At ReadECuble, we value user privacy and ensure that all user data is handled securely. Upon request, users can have their accounts and all associated data permanently deleted. No data is retained unless requested otherwise by the user. To request deletion of your account, simply follow these steps:
 
-Navigate to the Side Navigation -> "Account" section in the app.
+- Navigate to the Side Navigation -> "Account" section in the app.
 
-Select the "Delete Account" option.
+- Select the "Delete Account" option.
 
-Confirm your request.
+- Confirm your request.
 
 Upon account deletion, all information such as Name, E-mail Id, College name will be permanently erased from our servers. No data is kept, and there is no additional retention period. If you have any concerns or questions, please reach out to us via the support link provided in the app.
 
