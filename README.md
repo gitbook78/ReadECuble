@@ -56,6 +56,7 @@ We take appropriate security measures to protect your information against unauth
 
 Children's Privacy
 Our application does not address any one under the age of 13. We do not collect any personnel information from children through our application.
+
 ---
 # Contact Information
 If you have any questions or concerns about our Privacy Policy or how we handle your data, please contact us at:
