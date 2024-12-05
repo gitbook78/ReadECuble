@@ -1,0 +1,273 @@
+.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Faculty Glyphic", sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav img {
+    max-width: 100%;
+    height: auto;
+    scale: 0.4;
+}
+
+/* Logo Container Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    /* Aligns items (image and text) vertically */
+    gap: 13px;
+    /* Adds space between the image and text */
+}
+
+/* Logo Image Styling */
+.logo-img {
+    height: 40px;
+    width: auto;
+    scale: 1.7;
+}
+
+/* Logo Text Styling */
+.logo-text {
+    font-size: 24px;
+    /* Adjust text size */
+    font-weight: bold;
+    color: #ffffff;
+    /* Ensure text color matches your design */
+    margin: 0;
+    /* Remove default margins */
+}
+
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #2a2a3e;
+    height: 2rem;
+    width: 100%;
+    position: fixed;
+    /* Keep the navbar at the top */
+    top: 0;
+    z-index: 10;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #2e2e42;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    scale: .35;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 98rem;
+    bottom: 32rem;
+    border-radius: 3rem;
+}
+
+.hero h1 {
+    font-size: 4.9rem;
+    color: #c9a8e4;
+    margin: 0.4rem 0.5rem 0.5rem 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.primary-btn {
+    background-color: #8247e5;
+    color: #fff;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid #8247e5;
+    color: #8247e5;
+}
+
+/* Features Section */
+.features {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature {
+    max-width: 300px;
+}
+
+.feature img {
+    width: 50px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+}
+
+/* Footer Container */
+footer {
+    background-color: #1e1e2e;
+    /* Dark background for footer */
+    color: #ffffff;
+    /* White text */
+    padding: 20px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the two sections */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Adjust for smaller screens */
+}
+
+/* Footer Links Section */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* Space between links */
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-links li a:hover {
+    color: #a991f7;
+    /* Purple hover effect */
+}
+
+/* Social Icons Section */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Space between text and icons */
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    /* Space between icons */
+}
+
+.social-icons img {
+    width: 20px;
+    /* Icon size */
+    height: 20px;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        /* Stack sections vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 20px;
+    }
+}
