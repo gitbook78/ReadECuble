@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readecuble</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dstyles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo_white-1.png" alt="Readecuble Logo" class="logo-img">
+                    <h1 class="logo-text">Readecuble</h1>
+                </a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about" id="about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()">☀️</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="download-section">
+            <h1>Get the Readecuble App</h1>
+            <p>Select your platform and start learning effortlessly!</p>
+
+            <div class="card-container">
+                <!-- Card for Google Play -->
+                <div class="card">
+                    <img src="../assets/readecubleIcon.png" alt="Google Play Icon" class="card-icon">
+                    <h2>Download form Server 1</h2>
+                    <p>Get the Readecuble.</p>
+                    <a href="https://drive.google.com/uc?id=16Aqyzt5lvZqK2Z1yoViQb0ZrsGbHokHB&export=download"
+                        class="btn primary-btn">Download Now</a>
+                </div>
+
+                <!-- Card for App Store -->
+                <div class="card">
+                    <img src="../assets/readecubleIcon.png" alt="App Store Icon" class="card-icon">
+                    <h2>Download form Server 2</h2>
+                    <p>Access Readecuble.</p>
+                    <a href="https://apkpure.net/readecuble/com.readecuble.app/downloading"
+                        class="btn primary-btn">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
