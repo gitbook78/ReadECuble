@@ -8,6 +8,10 @@ body {
     align-items: center;
 }
 
+.nav-links{
+    margin-right: 3rem;
+}
+
 a{
     display: flex;
     align-items: center;
@@ -164,5 +168,83 @@ img {
 
     .card {
         width: 90%;
+    }
+}
+
+/* Footer Container */
+footer {
+    background-color: #1e1e2e;
+    /* Dark background for footer */
+    color: #ffffff;
+    /* White text */
+    padding: 20px 40px;
+    position: relative;
+    top: 17.1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the two sections */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Adjust for smaller screens */
+    bottom: 12rem;
+}
+
+/* Footer Links Section */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* Space between links */
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-links li a:hover {
+    color: #a991f7;
+    /* Purple hover effect */
+}
+
+/* Social Icons Section */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Space between text and icons */
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    /* Space between icons */
+}
+
+.social-icons img {
+    width: 20px;
+    /* Icon size */
+    height: 20px;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        /* Stack sections vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 20px;
     }
 }
