@@ -5,6 +5,11 @@ Free study materials for CSVTU: notes, PYQs, tests, videos &amp; more!
 
 ---
 
+## Download our App
+https://gitbook78.github.io/ReadECuble/
+
+---
+
 # Terms and Conditions
 Last Updated: September 18, 2024 
 
